@@ -1,0 +1,158 @@
+body {
+  background: rgb(205, 251, 251);
+  padding: 0;
+  margin: 0;
+  color: #000;
+  font-size: 15px;
+  font-family: 'Volkhov', serif;
+  font-weight: 400;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 70px;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.logotype {
+    width: 50px;
+}
+
+.info {
+    /* margin-top: 20px; */
+    display: flex;
+    margin-bottom: 20px;
+    padding: 30px 0 30px 30px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-top: 20px;
+}
+
+.info-text {
+    margin-left: 40px;
+}
+
+.info-text h1{
+    font-size: 40px;
+}
+
+.info-text h2{
+    font-size: 30px;
+}
+
+.avatar {
+    width: 200px;                                 /* Ширина аватарки */
+    /*border-radius: 50%;*/                       /*круглая аватарка*/
+    border-radius: 20px;                          /* Радиус скругления углов */
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);  /* Параметры тени */
+}
+
+.about {
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-top: 50px;
+    margin-bottom: 20px; 
+}
+
+.photos {
+    display: flex;
+    justify-content: space-between;
+}
+
+.photo {
+    width: 250px;
+    border-radius: 20px;                          /* Радиус скругления углов */
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.text_1 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 90px 0 70px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin: 20px 0 20px 0;
+}
+.text_2 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 10px 0 80px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin: 20px 0 20px 0;
+}
+.text_3 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 90px 0 70px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin: 20px 0 20px 0;
+}
+.text_4 {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    padding: 0 120px 0 40px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin: 20px 0 20px 0;
+}
+
+.skills-text {
+    color: rgb(255, 145, 0);
+    text-align: center;
+    font-size: large;
+    margin-top: 50px;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.skills {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    color: rgb(255, 145, 0);
+    padding: 0 30px 0 100px;
+    /* border-bottom: 1px solid #000; */
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
+
+.smile {
+    width: 100px;
+    border-radius: 20px;                          /* Радиус скругления углов */
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.end {
+    color: rgb(255, 145, 0);
+    text-align: center;
+    font-size: large;
+    border-radius: 20px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 025);
+}
